@@ -1,0 +1,25 @@
+# 配置与记忆（含 Cookie），绝不入库
+data/
+*.cookie
+cookie.txt
+config.json
+downloads.json
+recent.json
+quark_cfg.json
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 下载中的状态文件
+*.qstate.json
+*.qstate.json.tmp
+*.part
+
+# 系统 / 编辑器
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.DS_Store
